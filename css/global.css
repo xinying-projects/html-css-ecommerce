@@ -1,0 +1,75 @@
+/* #region font styles */
+:root {
+  --font-body: "Poppins", sans-serif;
+  --font-heading: "Inter", sans-serif;
+  --font-size-body: 16px;
+  --font-size-heading1: 1.5em;
+  --font-size-heading2: 2em;
+  --font-size-heading3: 1.25em;
+  --line-height-body: 1.6;
+  --color-body: #333;
+  --color-heading: #222;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  color: var(--color-heading);
+}
+
+h1 {
+  font-size: var(--font-size-heading1);
+}
+
+h2 {
+  font-size: var(--font-size-heading2);
+}
+
+h3 {
+  font-size: var(--font-size-heading3);
+}
+/* #endregion font styles */
+
+/* #region other styles */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.section-gap {
+  margin-bottom: 80px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-body);
+}
+
+input {
+  outline: 0;
+  border: 0;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}
+/* #endregion other styles */
