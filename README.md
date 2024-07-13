@@ -4,6 +4,10 @@
 
 `HTML-CSS-Ecommerce` is a demonstration project showcasing my abilities in HTML and CSS. This project represents a simple homepage for an e-commerce store. It includes a header, navigation menu, featured products section, and a footer.
 
+## Live Demo
+
+You can view the live demo of the e-commerce homepage deployed on Vercel [here](https://html-css-ecommerce.vercel.app/).
+
 ## Getting Started
 
 To view the `html-css-ecommerce` homepage on your local computer, follow these steps:
